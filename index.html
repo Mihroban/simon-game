@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Game</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Press+Start+2P" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Simon Game</h1>
+
+      <div class="controls">
+        <div id="count">
+          <h4>Count</h4>
+          <input class="count-num" type="text" name="count">
+        </div>
+
+        <div id="start">
+          <h4>Start/Reset</h4>
+          <button id="start-btn" class="green-btn" type="button" name="button"></button>
+        </div>
+
+        <div id="strict">
+          <h4>Strict</h4>
+          <!-- <div id="light"></div> -->
+          <button id="strict-btn" class="red-light" type="button" name="button"></button>
+        </div>
+
+        <div class="on-off">
+          <h4>On/Off</h4>
+          <label class="switch">
+            <input type="checkbox" id="switch">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+      </div>
+
+      <div class="gameboard">
+        <div id="green" class=""> </div>
+        <div id="red" class=""> </div>
+        <div id="yellow" class=""> </div>
+        <div id="blue" class=""> </div>
+        <div id="circle" class=""> </div>
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="game.js"></script>
+  </body>
+
+  <footer>
+    <p>Created with ❤️ by <a href="https://github.com/Mihroban/">Mihroban</a></p>
+  </footer>
+</html>
